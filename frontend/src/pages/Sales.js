@@ -7,7 +7,7 @@ function Sales() {
   const [toast, setToast] = useState(null);
 
   const fetchProducts = async () => {
-    const res = await fetch("http://localhost:5000/api/products");
+    const res = await fetch("https://lejone-wings-cafe-2.onrender.com/api/products");
     const data = await res.json();
     setProducts(data);
 
@@ -76,7 +76,7 @@ function Sales() {
     };
 
     try {
-      const res = await fetch("http://localhost:5000/api/sales", {
+      const res = await fetch("https://lejone-wings-cafe-2.onrender.com/api/sales", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
