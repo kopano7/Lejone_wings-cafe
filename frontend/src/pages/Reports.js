@@ -1,4 +1,3 @@
-// client/src/pages/Reports.jsx
 import React, { useEffect, useState } from "react";
 
 function Reports() {
@@ -6,7 +5,7 @@ function Reports() {
 
   const fetchReport = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/reports");
+      const res = await fetch("https://lejone-wings-cafe-2.onrender.com/api/reports");
       if (!res.ok) throw new Error("Failed to fetch report");
       const data = await res.json();
       setReport(data);
