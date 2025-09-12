@@ -6,6 +6,7 @@ function Dashboard() {
   const [sales, setSales] = useState([]);
   const [inventory, setInventory] = useState([]);
   const [expandedCategories, setExpandedCategories] = useState([]);
+
   const navigate = useNavigate();
 
   // store refs for each category card
