@@ -7,9 +7,12 @@ function Inventory() {
   const [removeMap, setRemoveMap] = useState({});
   const [toast, setToast] = useState(null);
 
+  // ✅ Base API link from Render
+  const API_BASE = "https://lejone-wings-cafe-2.onrender.com/api";
+
   const fetchInventory = async () => {
     try {
-      const res = await fetch("https://lejone-wings-cafe-2.onrender.com/api/inventory");
+      const res = await fetch(`${API_BASE}/inventory`);
       if (!res.ok) throw new Error("Failed to fetch inventory");
       const data = await res.json();
       data.sort((a, b) => (a.Type === "IN" ? -1 : 1));
@@ -21,9 +24,10 @@ function Inventory() {
 
   const fetchProducts = async () => {
     try {
-      const res = await fetch("https://lejone-wings-cafe-2.onrender.com/api/products");
+      const res = await fetch(`${API_BASE}/products`);
       const data = await res.json();
       setProducts(data);
+
       const initQty = {};
       data.forEach((p) => {
         initQty[p.Product_Code] = 0;
@@ -58,7 +62,6 @@ function Inventory() {
     }
   };
 
-  // --- Toast handler ---
   const showToast = (message, type = "success") => {
     setToast({ message, type });
     setTimeout(() => setToast(null), 3000);
@@ -69,7 +72,7 @@ function Inventory() {
     if (!qty || qty <= 0) return;
 
     try {
-      await fetch("https://lejone-wings-cafe-2.onrender.com/api/inventory", {
+      await fetch(`${API_BASE}/inventory`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -80,7 +83,7 @@ function Inventory() {
         }),
       });
 
-      await fetch(`https://lejone-wings-cafe-2.onrender.com/api/products/${product.Product_Code}`, {
+      await fetch(`${API_BASE}/products/${product.Product_Code}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ Quantity: product.Quantity + qty }),
@@ -112,7 +115,7 @@ function Inventory() {
     }
 
     try {
-      await fetch("https://lejone-wings-cafe-2.onrender.com/api/inventory", {
+      await fetch(`${API_BASE}/inventory`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -123,7 +126,7 @@ function Inventory() {
         }),
       });
 
-      await fetch(`https://lejone-wings-cafe-2.onrender.com/api/products/${product.Product_Code}`, {
+      await fetch(`${API_BASE}/products/${product.Product_Code}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ Quantity: product.Quantity - qty }),
