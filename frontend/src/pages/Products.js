@@ -22,7 +22,7 @@ function Products() {
 
   const fetchProducts = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/products");
+      const res = await fetch("https://lejone-wings-cafe-2.onrender.com/api/products");
       if (!res.ok) throw new Error("Failed to fetch products");
       const data = await res.json();
       setProducts(data);
@@ -52,7 +52,7 @@ function Products() {
       if (editValues[code]?.Image instanceof File)
         formData.append("image", editValues[code].Image);
 
-      const res = await fetch(`http://localhost:5000/api/products/${code}`, {
+      const res = await fetch(`https://lejone-wings-cafe-2.onrender.com/api/products/${code}`, {
         method: "PUT",
         body: formData,
       });
@@ -79,7 +79,7 @@ function Products() {
   const handleDeleteProduct = async (code) => {
     if (!window.confirm("Delete this product?")) return;
     try {
-      const res = await fetch(`http://localhost:5000/api/products/${code}`, {
+      const res = await fetch(`https://lejone-wings-cafe-2.onrender.com/api/products/${code}`, {
         method: "DELETE",
       });
       if (!res.ok) throw new Error("Failed to delete product");
@@ -100,7 +100,7 @@ function Products() {
         if (value) formData.append(key, value);
       });
 
-      const res = await fetch("http://localhost:5000/api/products", {
+      const res = await fetch("https://lejone-wings-cafe-2.onrender.com/api/products", {
         method: "POST",
         body: formData,
       });
@@ -222,7 +222,7 @@ function Products() {
                         <img
                           src={
                             p.Image
-                              ? `http://localhost:5000${p.Image}`
+                              ? `https://lejone-wings-cafe-2.onrender.com${p.Image}`
                               : "/images/default.jpg"
                           }
                           alt={p.Product_Name}
