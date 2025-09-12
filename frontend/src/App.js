@@ -6,8 +6,10 @@ import Products from "./pages/Products";
 import Inventory from "./pages/Inventory";
 import Sales from "./pages/Sales";
 import Reports from "./pages/Reports";
+import cors from "cors";
 import "./App.css";
 
+app.use(cors());
 function App() {
   return (
     <Router>
