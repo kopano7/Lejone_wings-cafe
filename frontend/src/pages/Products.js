@@ -136,8 +136,8 @@ function Products() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        minHeight: "100vh",   // ✅ fill full screen height
-        width: "100%",        // ✅ fill full screen width
+        minHeight: "100vh",
+        width: "100%",
         padding: "20px",
       }}
     >
