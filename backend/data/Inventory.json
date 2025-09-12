@@ -1,0 +1,442 @@
+[
+  {
+    "Inventory_Code": "t_001",
+    "Product_Code": "p_001",
+    "Type": "IN",
+    "Quantity": 50,
+    "Date": "2025-09-06T08:00:00Z",
+    "Note": "Initial stock delivery"
+  },
+  {
+    "Inventory_Code": "t_002",
+    "Product_Code": "p_002",
+    "Type": "IN",
+    "Quantity": 40,
+    "Date": "2025-09-06T08:10:00Z",
+    "Note": "Initial stock delivery"
+  },
+  {
+    "Inventory_Code": "t_003",
+    "Product_Code": "p_011",
+    "Type": "OUT",
+    "Quantity": 5,
+    "Date": "2025-09-06T10:30:00Z",
+    "Note": "Sold to customers"
+  },
+  {
+    "Inventory_Code": "t_004",
+    "Product_Code": "p_015",
+    "Type": "OUT",
+    "Quantity": 3,
+    "Date": "2025-09-06T11:00:00Z",
+    "Note": "Snack order"
+  },
+  {
+    "Inventory_Code": "t_1757442235291_p_001",
+    "Product_Code": "p_001",
+    "Type": "OUT",
+    "Quantity": 2,
+    "Date": "2025-09-09T18:23:55.291Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757442235291_p_002",
+    "Product_Code": "p_002",
+    "Type": "OUT",
+    "Quantity": 2,
+    "Date": "2025-09-09T18:23:55.291Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757442235291_p_003",
+    "Product_Code": "p_003",
+    "Type": "OUT",
+    "Quantity": 2,
+    "Date": "2025-09-09T18:23:55.291Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757443629085_p_001",
+    "Product_Code": "p_001",
+    "Type": "OUT",
+    "Quantity": 3,
+    "Date": "2025-09-09T18:47:09.085Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757444845069",
+    "Product_Code": "p_016",
+    "Type": "IN",
+    "Quantity": 10,
+    "Date": "2025-09-09T19:07:25.069Z",
+    "Note": ""
+  },
+  {
+    "Inventory_Code": "t_1757468883035_p_006",
+    "Product_Code": "p_006",
+    "Type": "OUT",
+    "Quantity": 5,
+    "Date": "2025-09-10T01:48:03.035Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757468883035_p_007",
+    "Product_Code": "p_007",
+    "Type": "OUT",
+    "Quantity": 3,
+    "Date": "2025-09-10T01:48:03.035Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757469918124_p_015",
+    "Product_Code": "p_015",
+    "Type": "OUT",
+    "Quantity": 2,
+    "Date": "2025-09-10T02:05:18.124Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757469918124_p_016",
+    "Product_Code": "p_016",
+    "Type": "OUT",
+    "Quantity": 3,
+    "Date": "2025-09-10T02:05:18.124Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757473643941",
+    "Product_Code": "p_1757473643939",
+    "Type": "IN",
+    "Quantity": 20,
+    "Date": "2025-09-10T03:07:23.941Z",
+    "Note": "Initial stock (product created)"
+  },
+  {
+    "Inventory_Code": "t_1757474037369_p_015",
+    "Product_Code": "p_015",
+    "Type": "OUT",
+    "Quantity": 1,
+    "Date": "2025-09-10T03:13:57.369Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757474037369_p_1757473643939",
+    "Product_Code": "p_1757473643939",
+    "Type": "OUT",
+    "Quantity": 1,
+    "Date": "2025-09-10T03:13:57.369Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757499748461_p_017",
+    "Product_Code": "p_017",
+    "Type": "OUT",
+    "Quantity": 1,
+    "Date": "2025-09-10T10:22:28.461Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757510337221_p_001",
+    "Product_Code": "p_001",
+    "Type": "OUT",
+    "Quantity": 1,
+    "Date": "2025-09-10T13:18:57.221Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757529679227_p_005",
+    "Product_Code": "p_005",
+    "Type": "OUT",
+    "Quantity": 11,
+    "Date": "2025-09-10T18:41:19.228Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757562806937",
+    "Product_Code": "p_005",
+    "Type": "IN",
+    "Quantity": 10,
+    "Date": "2025-09-11T03:53:26.937Z",
+    "Note": ""
+  },
+  {
+    "Inventory_Code": "t_1757565230412_p_002",
+    "Product_Code": "p_002",
+    "Type": "OUT",
+    "Quantity": 2,
+    "Date": "2025-09-11T04:33:50.413Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757565230413_p_003",
+    "Product_Code": "p_003",
+    "Type": "OUT",
+    "Quantity": 1,
+    "Date": "2025-09-11T04:33:50.413Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757565230413_p_018",
+    "Product_Code": "p_018",
+    "Type": "OUT",
+    "Quantity": 1,
+    "Date": "2025-09-11T04:33:50.413Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757565230413_p_019",
+    "Product_Code": "p_019",
+    "Type": "OUT",
+    "Quantity": 1,
+    "Date": "2025-09-11T04:33:50.413Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757565230413_p_015",
+    "Product_Code": "p_015",
+    "Type": "OUT",
+    "Quantity": 2,
+    "Date": "2025-09-11T04:33:50.413Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757565479410_p_010",
+    "Product_Code": "p_010",
+    "Type": "OUT",
+    "Quantity": 5,
+    "Date": "2025-09-11T04:37:59.410Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757565704721_p_007",
+    "Product_Code": "p_007",
+    "Type": "OUT",
+    "Quantity": 2,
+    "Date": "2025-09-11T04:41:44.721Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757565913520_p_010",
+    "Product_Code": "p_010",
+    "Type": "OUT",
+    "Quantity": 1,
+    "Date": "2025-09-11T04:45:13.520Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757565913520_p_017",
+    "Product_Code": "p_017",
+    "Type": "OUT",
+    "Quantity": 1,
+    "Date": "2025-09-11T04:45:13.520Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757565913521_p_008",
+    "Product_Code": "p_008",
+    "Type": "OUT",
+    "Quantity": 1,
+    "Date": "2025-09-11T04:45:13.521Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757572516284_p_001",
+    "Product_Code": "p_001",
+    "Type": "OUT",
+    "Quantity": 3,
+    "Date": "2025-09-11T06:35:16.284Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757572516284_p_005",
+    "Product_Code": "p_005",
+    "Type": "OUT",
+    "Quantity": 4,
+    "Date": "2025-09-11T06:35:16.284Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757578461722_p_002",
+    "Product_Code": "p_002",
+    "Type": "OUT",
+    "Quantity": 1,
+    "Date": "2025-09-11T08:14:21.722Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757579630599_p_010",
+    "Product_Code": "p_010",
+    "Type": "OUT",
+    "Quantity": 10,
+    "Date": "2025-09-11T08:33:50.599Z",
+    "Note": "Sale"
+  },
+  {
+    "Inventory_Code": "t_1757604166543_534",
+    "Product_Code": "p_001",
+    "Type": "OUT",
+    "Quantity": 6,
+    "Date": "2025-09-11T15:22:46.543Z",
+    "Note": "Sale transaction"
+  },
+  {
+    "Inventory_Code": "t_1757604789340_17",
+    "Product_Code": "p_010",
+    "Type": "OUT",
+    "Quantity": 4,
+    "Date": "2025-09-11T15:33:09.340Z",
+    "Note": "Sale transaction"
+  },
+  {
+    "Inventory_Code": "t_1757605518993_185",
+    "Product_Code": "p_001",
+    "Type": "OUT",
+    "Quantity": 11,
+    "Date": "2025-09-11T15:45:18.994Z",
+    "Note": "Sale transaction"
+  },
+  {
+    "Inventory_Code": "t_1757612327366",
+    "Product_Code": "p_1757612327365",
+    "Type": "IN",
+    "Quantity": 15,
+    "Date": "2025-09-11T17:38:47.366Z",
+    "Note": "Initial stock (product created)"
+  },
+  {
+    "Inventory_Code": "t_1757612579203",
+    "Product_Code": "p_1757612579202",
+    "Type": "IN",
+    "Quantity": 10,
+    "Date": "2025-09-11T17:42:59.203Z",
+    "Note": "Initial stock (product created)"
+  },
+  {
+    "Inventory_Code": "t_1757612929681",
+    "Product_Code": "p_1757612929679",
+    "Type": "IN",
+    "Quantity": 15,
+    "Date": "2025-09-11T17:48:49.681Z",
+    "Note": "Initial stock (product created)"
+  },
+  {
+    "Inventory_Code": "t_1757617487048",
+    "Product_Code": "p_010",
+    "Type": "IN",
+    "Quantity": 10,
+    "Date": "2025-09-11T19:04:47.048Z",
+    "Note": "Manual stock addition"
+  },
+  {
+    "Inventory_Code": "t_1757657356466_390",
+    "Product_Code": "p_001",
+    "Type": "OUT",
+    "Quantity": 4,
+    "Date": "2025-09-12T06:09:16.466Z",
+    "Note": "Sale transaction"
+  },
+  {
+    "Inventory_Code": "t_1757658071877",
+    "Product_Code": "p_001",
+    "Type": "IN",
+    "Quantity": 15,
+    "Date": "2025-09-12T06:21:11.877Z",
+    "Note": "Manual stock addition"
+  },
+  {
+    "Inventory_Code": "t_1757658395495_90",
+    "Product_Code": "p_001",
+    "Type": "OUT",
+    "Quantity": 10,
+    "Date": "2025-09-12T06:26:35.495Z",
+    "Note": "Sale transaction"
+  },
+  {
+    "Inventory_Code": "t_1757670164844",
+    "Product_Code": "p_001",
+    "Type": "IN",
+    "Quantity": 5,
+    "Date": "2025-09-12T09:42:44.844Z",
+    "Note": "Manual stock addition"
+  },
+  {
+    "Inventory_Code": "t_1757677322829",
+    "Product_Code": "p_1757677322828",
+    "Type": "IN",
+    "Quantity": 5,
+    "Date": "2025-09-12T11:42:02.829Z",
+    "Note": "Initial stock (product created)"
+  },
+  {
+    "Inventory_Code": "t_1757679946322",
+    "Product_Code": "p_001",
+    "Type": "OUT",
+    "Quantity": 5,
+    "Date": "2025-09-12T12:25:46.322Z",
+    "Note": "Manual stock removal"
+  },
+  {
+    "Inventory_Code": "t_1757680460741",
+    "Product_Code": "p_001",
+    "Type": "OUT",
+    "Quantity": 5,
+    "Date": "2025-09-12T12:34:20.742Z",
+    "Note": "Manual stock removal"
+  },
+  {
+    "Inventory_Code": "t_1757680499489",
+    "Product_Code": "p_001",
+    "Type": "OUT",
+    "Quantity": 2,
+    "Date": "2025-09-12T12:34:59.489Z",
+    "Note": "Manual stock removal"
+  },
+  {
+    "Inventory_Code": "t_1757681043812",
+    "Product_Code": "p_001",
+    "Type": "IN",
+    "Quantity": 2,
+    "Date": "2025-09-12T12:44:03.812Z",
+    "Note": "Manual stock addition"
+  },
+  {
+    "Inventory_Code": "t_1757681166398_897",
+    "Product_Code": "p_017",
+    "Type": "OUT",
+    "Quantity": 3,
+    "Date": "2025-09-12T12:46:06.398Z",
+    "Note": "Sale transaction"
+  },
+  {
+    "Inventory_Code": "t_1757681201646_342",
+    "Product_Code": "p_017",
+    "Type": "OUT",
+    "Quantity": 3,
+    "Date": "2025-09-12T12:46:41.646Z",
+    "Note": "Sale transaction"
+  },
+  {
+    "Inventory_Code": "t_1757682217998_754",
+    "Product_Code": "p_017",
+    "Type": "OUT",
+    "Quantity": 4,
+    "Date": "2025-09-12T13:03:37.998Z",
+    "Note": "Sale transaction"
+  },
+  {
+    "Inventory_Code": "t_1757687182001",
+    "Product_Code": "p_001",
+    "Type": "IN",
+    "Quantity": 5,
+    "Date": "2025-09-12T14:26:22.001Z",
+    "Note": "Manual stock addition"
+  },
+  {
+    "Inventory_Code": "t_1757687212035",
+    "Product_Code": "p_017",
+    "Type": "IN",
+    "Quantity": 10,
+    "Date": "2025-09-12T14:26:52.035Z",
+    "Note": "Manual stock addition"
+  }
+]

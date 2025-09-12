@@ -1,0 +1,450 @@
+[
+  {
+    "Sale_Code": "s_001",
+    "Items": [
+      {
+        "Product_Code": "p_002",
+        "Quantity": 2,
+        "Price": 5
+      },
+      {
+        "Product_Code": "p_011",
+        "Quantity": 3,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-06T10:30:00Z",
+    "Total": 25
+  },
+  {
+    "Sale_Code": "s_002",
+    "Items": [
+      {
+        "Product_Code": "p_001",
+        "Quantity": 1,
+        "Price": 5
+      },
+      {
+        "Product_Code": "p_015",
+        "Quantity": 2,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-06T11:00:00Z",
+    "Total": 15
+  },
+  {
+    "Sale_Code": "s_1757442235291",
+    "Items": [
+      {
+        "Product_Code": "p_001",
+        "Quantity": 2,
+        "Price": 5
+      },
+      {
+        "Product_Code": "p_002",
+        "Quantity": 2,
+        "Price": 5
+      },
+      {
+        "Product_Code": "p_003",
+        "Quantity": 2,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-09T18:23:55.291Z",
+    "Total": 30
+  },
+  {
+    "Sale_Code": "s_1757443629085",
+    "Items": [
+      {
+        "Product_Code": "p_001",
+        "Quantity": 3,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-09T18:47:09.085Z",
+    "Total": 15
+  },
+  {
+    "Sale_Code": "s_1757468883035",
+    "Items": [
+      {
+        "Product_Code": "p_006",
+        "Quantity": 5,
+        "Price": 5
+      },
+      {
+        "Product_Code": "p_007",
+        "Quantity": 3,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-10T01:48:03.035Z",
+    "Total": 40
+  },
+  {
+    "Sale_Code": "s_1757469918124",
+    "Items": [
+      {
+        "Product_Code": "p_015",
+        "Quantity": 2,
+        "Price": 5
+      },
+      {
+        "Product_Code": "p_016",
+        "Quantity": 3,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-10T02:05:18.124Z",
+    "Total": 25
+  },
+  {
+    "Sale_Code": "s_1757474037369",
+    "Items": [
+      {
+        "Product_Code": "p_015",
+        "Quantity": 1,
+        "Price": 5
+      },
+      {
+        "Product_Code": "p_1757473643939",
+        "Quantity": 1,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-10T03:13:57.369Z",
+    "Total": 10
+  },
+  {
+    "Sale_Code": "s_1757499748461",
+    "Items": [
+      {
+        "Product_Code": "p_017",
+        "Quantity": 1,
+        "Price": 28
+      }
+    ],
+    "Date": "2025-09-10T10:22:28.461Z",
+    "Total": 28
+  },
+  {
+    "Sale_Code": "s_1757510337221",
+    "Items": [
+      {
+        "Product_Code": "p_001",
+        "Quantity": 1,
+        "Price": 6
+      }
+    ],
+    "Date": "2025-09-10T13:18:57.221Z",
+    "Total": 6
+  },
+  {
+    "Sale_Code": "s_1757529679228",
+    "Items": [
+      {
+        "Product_Code": "p_005",
+        "Quantity": 11,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-10T18:41:19.228Z",
+    "Total": 55
+  },
+  {
+    "Sale_Code": "s_1757565230413",
+    "Items": [
+      {
+        "Product_Code": "p_002",
+        "Quantity": 2,
+        "Price": 5
+      },
+      {
+        "Product_Code": "p_003",
+        "Quantity": 1,
+        "Price": 5
+      },
+      {
+        "Product_Code": "p_018",
+        "Quantity": 1,
+        "Price": 28
+      },
+      {
+        "Product_Code": "p_019",
+        "Quantity": 1,
+        "Price": 28
+      },
+      {
+        "Product_Code": "p_015",
+        "Quantity": 2,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-11T04:33:50.413Z",
+    "Total": 81
+  },
+  {
+    "Sale_Code": "s_1757565479410",
+    "Items": [
+      {
+        "Product_Code": "p_010",
+        "Quantity": 5,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-11T04:37:59.410Z",
+    "Total": 25
+  },
+  {
+    "Sale_Code": "s_1757565704721",
+    "Items": [
+      {
+        "Product_Code": "p_007",
+        "Quantity": 2,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-11T04:41:44.721Z",
+    "Total": 10
+  },
+  {
+    "Sale_Code": "s_1757565913521",
+    "Items": [
+      {
+        "Product_Code": "p_010",
+        "Quantity": 1,
+        "Price": 5
+      },
+      {
+        "Product_Code": "p_017",
+        "Quantity": 1,
+        "Price": 28
+      },
+      {
+        "Product_Code": "p_008",
+        "Quantity": 1,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-11T04:45:13.521Z",
+    "Total": 38
+  },
+  {
+    "Sale_Code": "s_1757572516284",
+    "Items": [
+      {
+        "Product_Code": "p_001",
+        "Quantity": 3,
+        "Price": 5
+      },
+      {
+        "Product_Code": "p_005",
+        "Quantity": 4,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-11T06:35:16.284Z",
+    "Total": 35
+  },
+  {
+    "Sale_Code": "s_1757578461722",
+    "Items": [
+      {
+        "Product_Code": "p_002",
+        "Quantity": 1,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-11T08:14:21.722Z",
+    "Total": 5
+  },
+  {
+    "Sale_Code": "s_1757579630599",
+    "Items": [
+      {
+        "Product_Code": "p_010",
+        "Quantity": 10,
+        "Price": 5
+      }
+    ],
+    "Date": "2025-09-11T08:33:50.599Z",
+    "Total": 50
+  },
+  {
+    "Sale_Code": "s_1757601935678",
+    "Quantity": 1,
+    "Total": 0,
+    "Date": "2025-09-11T14:45:35.678Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757601944400",
+    "Quantity": 1,
+    "Total": 0,
+    "Date": "2025-09-11T14:45:44.400Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757602390127",
+    "Quantity": 1,
+    "Total": 0,
+    "Date": "2025-09-11T14:53:10.127Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757602401059",
+    "Quantity": 1,
+    "Total": 0,
+    "Date": "2025-09-11T14:53:21.059Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757603116412",
+    "Quantity": 1,
+    "Total": 0,
+    "Date": "2025-09-11T15:05:16.412Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757603123895",
+    "Quantity": 1,
+    "Total": 0,
+    "Date": "2025-09-11T15:05:23.895Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757603555096",
+    "Quantity": 1,
+    "Total": 0,
+    "Date": "2025-09-11T15:12:35.096Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757603599554",
+    "Quantity": 1,
+    "Total": 0,
+    "Date": "2025-09-11T15:13:19.555Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757603609763",
+    "Quantity": 1,
+    "Total": 0,
+    "Date": "2025-09-11T15:13:29.763Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757603990002",
+    "Quantity": 1,
+    "Total": 0,
+    "Date": "2025-09-11T15:19:50.002Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757604166543",
+    "Items": [
+      {
+        "Product_Code": "p_001",
+        "Quantity": 6,
+        "Price": 5
+      }
+    ],
+    "Total": 30,
+    "Date": "2025-09-11T15:22:46.543Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757604789341",
+    "Items": [
+      {
+        "Product_Code": "p_010",
+        "Quantity": 4,
+        "Price": 5
+      }
+    ],
+    "Total": 20,
+    "Date": "2025-09-11T15:33:09.341Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757605518994",
+    "Items": [
+      {
+        "Product_Code": "p_001",
+        "Quantity": 11,
+        "Price": 50
+      }
+    ],
+    "Total": 550,
+    "Date": "2025-09-11T15:45:18.994Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757657356466",
+    "Items": [
+      {
+        "Product_Code": "p_001",
+        "Quantity": 4,
+        "Price": 50
+      }
+    ],
+    "Total": 200,
+    "Date": "2025-09-12T06:09:16.466Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757658395495",
+    "Items": [
+      {
+        "Product_Code": "p_001",
+        "Quantity": 10,
+        "Price": 50
+      }
+    ],
+    "Total": 500,
+    "Date": "2025-09-12T06:26:35.495Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757681166398",
+    "Items": [
+      {
+        "Product_Code": "p_017",
+        "Quantity": 3,
+        "Price": 28
+      }
+    ],
+    "Total": 84,
+    "Date": "2025-09-12T12:46:06.398Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757681201646",
+    "Items": [
+      {
+        "Product_Code": "p_017",
+        "Quantity": 3,
+        "Price": 28
+      }
+    ],
+    "Total": 84,
+    "Date": "2025-09-12T12:46:41.646Z",
+    "Customer": "Anonymous"
+  },
+  {
+    "Sale_Code": "s_1757682217998",
+    "Items": [
+      {
+        "Product_Code": "p_017",
+        "Quantity": 4,
+        "Price": 28
+      }
+    ],
+    "Total": 112,
+    "Date": "2025-09-12T13:03:37.998Z",
+    "Customer": "Anonymous"
+  }
+]

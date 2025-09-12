@@ -1,0 +1,200 @@
+[
+  {
+    "Product_Code": "p_001",
+    "Product_Name": "Black Coffee",
+    "Category": "Hot Coffee",
+    "Price": 50,
+    "Quantity": 10,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757596362115-617706988.jpeg"
+  },
+  {
+    "Product_Code": "p_002",
+    "Product_Name": "Cappuccino",
+    "Category": "Hot Coffee",
+    "Price": 52,
+    "Quantity": 20,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757596446969-780352017.jpeg"
+  },
+  {
+    "Product_Code": "p_003",
+    "Product_Name": "Espresso",
+    "Category": "Hot Coffee",
+    "Price": 55,
+    "Quantity": 17,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757596472079-227185653.jpg"
+  },
+  {
+    "Product_Code": "p_004",
+    "Product_Name": "Cafe Latte",
+    "Category": "Hot Coffee",
+    "Price": 55,
+    "Quantity": 18,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757596829595-726500901.jpeg"
+  },
+  {
+    "Product_Code": "p_005",
+    "Product_Name": "Americano",
+    "Category": "Hot Coffee",
+    "Price": 50,
+    "Quantity": 10,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757596846800-691502714.jpeg"
+  },
+  {
+    "Product_Code": "p_006",
+    "Product_Name": "Ice Coffee",
+    "Category": "Ice Coffee",
+    "Price": 50,
+    "Quantity": 15,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757597060986-451893854.jpeg"
+  },
+  {
+    "Product_Code": "p_007",
+    "Product_Name": "Ice Mocha Coffee",
+    "Category": "Ice Coffee",
+    "Price": 55,
+    "Quantity": 15,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757596955565-144900144.jpg"
+  },
+  {
+    "Product_Code": "p_008",
+    "Product_Name": "Iced Pumpkin Latte",
+    "Category": "Ice Coffee",
+    "Price": 45,
+    "Quantity": 14,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757596969430-994189120.jpeg"
+  },
+  {
+    "Product_Code": "p_009",
+    "Product_Name": "Iced Americano",
+    "Category": "Ice Coffee",
+    "Price": 55,
+    "Quantity": 15,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757597036324-914236449.jpeg"
+  },
+  {
+    "Product_Code": "p_010",
+    "Product_Name": "Cupcake",
+    "Category": "Bakery",
+    "Price": 75,
+    "Quantity": 10,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757597119986-950837304.jpeg"
+  },
+  {
+    "Product_Code": "p_011",
+    "Product_Name": "Donuts",
+    "Category": "Bakery",
+    "Price": 50,
+    "Quantity": 20,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757597146726-760042698.jpeg"
+  },
+  {
+    "Product_Code": "p_012",
+    "Product_Name": "Croissant",
+    "Category": "Bakery",
+    "Price": 98,
+    "Quantity": 20,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757597161165-484752811.jpeg"
+  },
+  {
+    "Product_Code": "p_013",
+    "Product_Name": "Danish",
+    "Category": "Bakery",
+    "Price": 55,
+    "Quantity": 15,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757597169769-939441122.jpeg"
+  },
+  {
+    "Product_Code": "p_014",
+    "Product_Name": "Brownies",
+    "Category": "Bakery",
+    "Price": 54,
+    "Quantity": 15,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757597183750-201197952.jpeg"
+  },
+  {
+    "Product_Code": "p_017",
+    "Product_Name": "Berry Smoothie",
+    "Category": "Smoothie",
+    "Price": 28,
+    "Quantity": 10,
+    "Minimum_Stock": 3,
+    "Image": "/uploads/1757597519450-100505579.jpeg"
+  },
+  {
+    "Product_Code": "p_018",
+    "Product_Name": "Mango Smoothie",
+    "Category": "Smoothie",
+    "Price": 28,
+    "Quantity": 11,
+    "Minimum_Stock": 3,
+    "Image": "/uploads/1757597518316-14991260.jpeg"
+  },
+  {
+    "Product_Code": "p_019",
+    "Product_Name": "Banana Smoothie",
+    "Category": "Smoothie",
+    "Price": 28,
+    "Quantity": 9,
+    "Minimum_Stock": 3,
+    "Image": "/uploads/1757597517175-989877015.jpeg"
+  },
+  {
+    "Product_Code": "p_015",
+    "Product_Name": "French Fries",
+    "Category": "Snack",
+    "Price": 120,
+    "Quantity": 20,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757597671445-243356339.jpeg"
+  },
+  {
+    "Product_Code": "p_016",
+    "Product_Name": "Chicken Burrito",
+    "Category": "Snack",
+    "Price": 120,
+    "Quantity": 17,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757597670211-786943057.jpeg"
+  },
+  {
+    "Product_Code": "p_1757612327365",
+    "Product_Name": "Ovacado toast",
+    "Category": "Snack",
+    "Price": 125,
+    "Quantity": 15,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757612993582-63293011.jpeg"
+  },
+  {
+    "Product_Code": "p_1757612579202",
+    "Product_Name": "Nut",
+    "Category": "Snack",
+    "Price": 50,
+    "Quantity": 10,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757612984006-530915676.jpeg"
+  },
+  {
+    "Product_Code": "p_1757612929679",
+    "Product_Name": "Tarts",
+    "Category": "Snack",
+    "Price": 50,
+    "Quantity": 15,
+    "Minimum_Stock": 5,
+    "Image": "/uploads/1757612971959-833442210.jpeg"
+  }
+]
