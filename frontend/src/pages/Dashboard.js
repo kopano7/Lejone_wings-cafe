@@ -12,7 +12,7 @@ function Dashboard() {
   const categoryRefs = useRef({});
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/products")
+    fetch("https://lejone-wings-cafe-2.onrender.com/api/products")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
@@ -34,11 +34,11 @@ function Dashboard() {
         }
       });
 
-    fetch("http://localhost:5000/api/sales")
+    fetch("https://lejone-wings-cafe-2.onrender.com/api/sales")
       .then((res) => res.json())
       .then(setSales);
 
-    fetch("http://localhost:5000/api/inventory")
+    fetch("https://lejone-wings-cafe-2.onrender.com/api/inventory")
       .then((res) => res.json())
       .then(setInventory);
   }, []);
