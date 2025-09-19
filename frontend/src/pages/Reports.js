@@ -68,7 +68,7 @@ function Reports() {
         <ul>
           {report.recentInventory.map((inv, idx) => (
             <li key={idx}>
-              {inv.Product_Code} — {inv.Type} — {inv.Quantity}
+              {inv.Product_Name || inv.Product_Code} — {inv.Type} — {inv.Quantity}
             </li>
           ))}
         </ul>
@@ -89,8 +89,56 @@ function Reports() {
           </ul>
         )}
       </div>
+
+      {/* Available Products Table */}
+      <div className="report-card">
+        <h3>Available Products</h3>
+        <table border="1" cellPadding="5" style={{ width: "100%", borderCollapse: "collapse" }}>
+          <thead>
+            <tr>
+              <th>Product Name</th>
+              <th>Quantity Available</th>
+            </tr>
+          </thead>
+          <tbody>
+            {report.availableProducts?.map((p, idx) => (
+              <tr key={idx}>
+                <td>{p.Product_Name}</td>
+                <td>{p.Quantity}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      {/* Products Sold by Weeks Table */}
+      <div className="report-card">
+        <h3>Products Sold by Weeks</h3>
+        {report.weeklyTopSelling.map((week, idx) => (
+          <div key={idx} style={{ marginBottom: "20px" }}>
+            <h4>Week {week.week}</h4>
+            <table border="1" cellPadding="5" style={{ width: "100%", borderCollapse: "collapse" }}>
+              <thead>
+                <tr>
+                  <th>Product Name</th>
+                  <th>Quantity Sold</th>
+                </tr>
+              </thead>
+              <tbody>
+                {week.items.map((item, i) => (
+                  <tr key={i}>
+                    <td>{item.Product_Name}</td>
+                    <td>{item.Quantity_Sold}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
 
 export default Reports;
+
